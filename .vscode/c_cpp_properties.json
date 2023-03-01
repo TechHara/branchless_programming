@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Linux", // Mac or Linux
+            "includePath": [ // header search for intellisense
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/g++", // to help intellisense
+            "cppStandard": "c++17" // c++11, c++14, c++17, etc
+        }
+    ],
+    "version": 4 // managed by extension; do not change
+}
