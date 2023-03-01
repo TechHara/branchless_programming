@@ -1,5 +1,5 @@
 CXX = clang++
 CXXFLAGS = -O3 -g -std=c++17
 all:
-	${CXX} ${CXXFLAGS} src/bin/branch.cc -o target/release/branch_cc
-	${CXX} ${CXXFLAGS} src/bin/branchless.cc -o target/release/branchless_cc
+	${CXX} ${CXXFLAGS} src/bin/cpp_branch.cc -o target/release/cpp_branch
+	${CXX} ${CXXFLAGS} src/bin/cpp_branchless.cc -o target/release/cpp_branchless
